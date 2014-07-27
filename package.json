@@ -1,0 +1,33 @@
+{
+  "name": "dat-binary-encoder",
+  "version": "0.0.0",
+  "description": "Binary encoder/decoder for a dat changes feed",
+  "main": "index.js",
+  "dependencies": {
+    "protocol-buffers": "^1.0.1",
+    "varint": "^3.0.0"
+  },
+  "devDependencies": {
+    "tape": "^2.13.4",
+    "through2": "^0.5.1"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/dat-binary-encoder"
+  },
+  "keywords": [
+    "dat",
+    "binary",
+    "encoder",
+    "stream"
+  ],
+  "author": "Mathias Buus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/dat-binary-encoder/issues"
+  },
+  "homepage": "https://github.com/mafintosh/dat-binary-encoder"
+}
