@@ -37,7 +37,8 @@ tape('encode + decode multi', function(t) {
     from: 0,
     to: 1,
     change: 1,
-    value: new Buffer('hello')
+    value: new Buffer('hello'),
+    subset: 'meh'
   }
 
   e.write(change)
