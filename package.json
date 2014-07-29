@@ -1,6 +1,6 @@
 {
   "name": "dat-binary-encoder",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Binary encoder/decoder for a dat changes feed",
   "main": "index.js",
   "dependencies": {
