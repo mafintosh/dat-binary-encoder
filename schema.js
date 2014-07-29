@@ -20,4 +20,8 @@ module.exports = protobuf([{
   tag: 4,
   name: 'value',
   type: 'bytes'
+}, {
+  tag: 5,
+  name: 'subset',
+  type: 'string'
 }])
